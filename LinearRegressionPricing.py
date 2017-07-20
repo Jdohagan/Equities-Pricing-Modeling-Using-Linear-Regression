@@ -4,7 +4,6 @@
 
 # Import Python and SKLearn libraries
 #
-
 import pandas as pd
 import quandl as Quandl
 import math, datetime
