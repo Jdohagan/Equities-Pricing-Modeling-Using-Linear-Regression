@@ -2,15 +2,6 @@
 # Linear Regression of stock prices for
 # predicting future prices based on historical data
 
-# Linear Regression of stock price closing prices
-# modified from: 
-# https://www.youtube.com/watch?v=JcI5Vnw0b2c pt2
-# https://www.youtube.com/watch?v=lN5jesocJjk pt3
-# https://www.youtube.com/watch?v=r4mwkS2T9aI pt4
-# https://www.youtube.com/watch?v=QLVMqwpOLPk pt5 Graph Plots
-# https://www.youtube.com/watch?v=za5s7RB_VLw pt6 Pickling
-# https://www.youtube.com/watch?v=V59bYfIomVk pt7 Linear Regression internals
-
 import pandas as pd
 import quandl as Quandl
 import math, datetime
