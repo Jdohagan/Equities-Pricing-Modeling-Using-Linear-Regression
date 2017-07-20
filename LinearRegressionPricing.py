@@ -2,6 +2,9 @@
 # Linear Regression of stock prices for
 # predicting future prices based on historical data
 
+# Import Python and SKLearn libraries
+#
+
 import pandas as pd
 import quandl as Quandl
 import math, datetime
@@ -125,7 +128,7 @@ clf = LinearRegression(n_jobs=1)  # run as 10 threads for speed
 # Try SVM:
 #clf = svm.SVR()    # SVM is much less accurate than LinearRegression for this data
 
-clf.fit(X_train, y_train)             # fit is synonomous with train
+clf.fit(X_train, y_train)             # fit is synonymous with train
 
 
 # Use pickle to save training data so you don't have to retrain
